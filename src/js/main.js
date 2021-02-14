@@ -47,33 +47,17 @@ window.addEventListener('scroll', function (){
     }
 });
 
-
 // scrollspy --------------------------------------------------------
 let sections = document.querySelectorAll('section');
-let sectionsArray = Array.from(sections);
-
-
+let sectionsArray = Array.from(sections); 
 let hiddenNavLink =  Array.from(document.querySelectorAll('.hidden-nav a'));
 
 window.addEventListener('scroll', function (){
-    for(i=0; i < sectionsArray.length; i++){
-        let sectionTop= sectionsArray[i].getBoundingClientRect().top ;
-        let sectionBottom = sectionsArray[i].getBoundingClientRect().bottom ;
-        
-
-
-        if(sectionTop <= 50){
-            
-            hiddenNavLink[i].classList.add('active');
+    sectionsArray.forEach((v,i)=> {
+        let rect = v.getBoundingClientRect().y
+        if(rect < window.innerHeight-600){
+            hiddenNavLink.forEach(v=> v.classList.remove('active'))
+            hiddenNavLink[i].classList.add('active')
         }
-        if((sectionBottom <= 0) || (sectionTop > 50)) {
-            hiddenNavLink[i].classList.remove('active');
-        }
-
-
-    }
-
-    
-});
-
-
+    })
+}); 
