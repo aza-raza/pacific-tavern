@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Tavern.</title>
+    <script src="https://kit.fontawesome.com/1db7be8f13.js" crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body>
+    <!-- hidden-nav black-->
+    <nav class="hidden-nav">
+        <a href="#home" class="a-home">home</a>
+        <a href="#restaurant" class="a-restaurant">restaurant</a>
+        <a href="#menu" class="a-menu">menu</a>
+        <a href="#drinks" class="a-drinks">drinks</a>
+        <a href="#reservations" class="a-reservations">reservations</a>
+        <a href="#contact" class="a-contact">contact</a>
+    </nav>
+    <!-- mobile-nav -->
+    <nav class="mobile-nav">
+        <a href="#home" class="link a-home">home</a>
+        <a href="#restaurant" class="link a-restaurant">restaurant</a>
+        <a href="#menu" class="link a-menu">menu</a>
+        <a href="#drinks" class="link a-drinks">drinks</a>
+        <a href="#reservations" class="link a-reservations">reservations</a>
+        <a href="#contact" class="link a-contact">contact</a>
+    </nav>
+    <!-- hidden-logo -->
+    <div class="hidden-logo">
+        <img src="img/pacific-logo.png" alt="hidden-logo">
+    </div>
+
+
+    <!-- section home -------------------------------------------->
+    <section id="home">
+        <!-- header nav -->
+        <header class="header">
+            <nav class="left-nav">
+                <a href="#home">home</a>
+                <a href="#restaurant">restaurant</a>
+                <a href="#menu">menu</a>
+            </nav>
+            <div class="logo">
+                <img src="img/pacific-logo.png" alt="logo">
+            </div>
+            <nav class="right-nav">
+                <a href="#drinks">drinks</a>
+                <a href="#reservations">reservations</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+
+        <!-- burger-menu -->
+        <div class="burger-menu">
+            <div class="barre-top"></div>
+            <div class="barre-middle"></div>
+            <div class="barre-bottom"></div>
+        </div>
+        <!-- hero banner -->
+        <div class="hero ">
+            <h1>
+                best burger in brooklyn
+                <span>LOCALLY SOURCED × CRAFTED WITH LOVE</span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- section resto ----------------------------------------------->
+    <section class="resto" id="restaurant">
+        <div class="wrapper">
+            <div class="resto-texte">
+                <h2>Located in Park Slope, Pacific Tavern is a purveyor of fine American dining from the esteemed Chef
+                    Billy Lang.</h2>
+                <h4>PHOTOS BY NICOLE FRANZEN</h4>
+                <p>Pacific Tavern opened in May 2010 and is located inside the Smith Hotel Brooklyn. Since then, Golden
+                    Spork winner Chef Lang has been serving both quality interpretations of classic dishes and daring
+                    new ventures into the uncharted territories of food.</p>
+                <p>Pacific Tavern's interior, designed by the award-winning Hayden Collective, reflects the hip
+                    sensibilities of the surrounding area while also paying tribute to Brooklyn's storied past. The
+                    multi-level restaurant offers the choice to observe passers-by in the glass-encased Cascade Bar on
+                    the 2nd floor, or watch the art of cooking as it occurs in the open-kitchen dining room.</p>
+            </div>
+            <div class="resto-info">
+                <h5>PHONE <span>(347) 555-1234</span></h5>
+                <h5>LOCATION <span>74 5th Avenue <br> at St. Marks Place <br> Brooklyn, NY 11217</span></h5>
+                <h5>HOURS <span><strong>M-Th</strong> 5p–11p <br> <strong>F-Sa</strong> 12p–11p<br> <strong>Su</strong>
+                        10a–11p</span></h5>
+            </div>
+        </div>
+        <!-- slider -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/slider1.jpg" alt="slider">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slider2.jpg" alt="slider">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    
+    <!-- section menu Pacific ------------------------------------------------>
+    <section class="menu" id="menu">
+        <div class="wrapper">
+            <img src="img/pacific-dark.png" alt="logo">
+            <!-- bloc1 -->
+            <span class="titre">SNACKS X SALADS</span>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Primavera Salad <span>arugula, cherry tomato, shaved almonds, shallo vinaigrette</span>
+                    </h4>
+                    <h4>$8</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Grilled Calamari <span>tomato sauce, lemon</span>
+                    </h4>
+                    <h4>$12</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Mac and Cheese <span>cheddar, gruyere, gouda, truffle oil</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+            </div>
+            <!-- bloc2 -->
+            <span class="titre">SANDWICHES</span>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Alpine <span>fontina, gruyere, truffle oil on multigrain toast</span>
+                    </h4>
+                    <h4>$10</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Milanese <span>fried chicken, lettuce, tomato, mayo on focaccia</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Flatiron <span>steak, havarti, fried onions, chipotle mayo on challah</span>
+                    </h4>
+                    <h4>$16</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Raleigh <span>coleslaw, barbecue sauce, pickles on sesame roll</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Reuben <span>pastrami, coleslaw, russian dressing on rye</span>
+                    </h4>
+                    <h4>$15</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Classic <span>ham, unmelted cheddar, mayo on kaiser roll</span>
+                    </h4>
+                    <h4>$16</h4>
+                </div>
+            </div>
+            <!-- bloc3 -->
+            <span class="titre">MAINS</span>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Lobster Bolognese <span>linguini, lobster tail, herbs in tomato & garlic broth</span>
+                    </h4>
+                    <h4>$28</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Braised Lamb <span>jasmine rice pilaf, roasted almonds, sesame soy reduction</span>
+                    </h4>
+                    <h4>$23</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Burger <span>gruyere, fried onions, special sauce on challah roll</span>
+                    </h4>
+                    <h4>$20</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Dry-Aged Rib-Eye <span>grass-fed, with arugula salad, smashed potatoes</span>
+                    </h4>
+                    <h4>$38</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Salmon Steak <span>quinoa, roasted carrots, mustard lemon glaze</span>
+                    </h4>
+                    <h4>$22</h4>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section drinks Cascade ----------------------------------------------->
+    <section class="drinks" id="drinks">
+        <div class="wrapper">
+            <img src="img/cascade-logo.png" alt="cascade-logo">
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Manhattan <span>rye whisky, sweet vermouth, bitters</span>
+                    </h4>
+                    <h4>$11</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Sauvignon Blanc <span>cloudy bay, new zealand, 2012</span>
+                    </h4>
+                    <h4>$18</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Lagunitas <span>ipa, california</span>
+                    </h4>
+                    <h4>$7</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Dark & Stormy <span>black rum, ginger beer, lime</span>
+                    </h4>
+                    <h4>$9</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Pinot Grigio <span>corte della torre, veneto, 2012</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        21st Amendment <span>back in black ipa, san francisco</span>
+                    </h4>
+                    <h4>$8</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Old Cuban <span>aged rum, lime juice, bitters, champagne</span>
+                    </h4>
+                    <h4>$9</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Chardonnay <span>gavilan, monterey, 2012</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Breakside <span>wanderlust ipa, oregon</span>
+                    </h4>
+                    <h4>$8</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Negroni <span>gin, vermouth rosso, campari</span>
+                    </h4>
+                    <h4>$7</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Pinot Noir <span>heron, napa, 2011</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Hill Farmstead <span>edward apa, vermont</span>
+                    </h4>
+                    <h4>$11</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Bloody Mary <span>tomato juice, vodka, tabasco, bacon bits</span>
+                    </h4>
+                    <h4>$9</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Cabernet Sauvignon <span>slingshot, napa, 2010</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Alchemist <span>heady topper, vermont</span>
+                    </h4>
+                    <h4>$11</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Green & Amber<span>vodka, single-malt scotch, honey, lemon, green tea</span>
+                    </h4>
+                    <h4>$9</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Prosecco <span>bortolotti, brut, veneto, 2010</span>
+                    </h4>
+                    <h4>$15</h4>
+                </div>
+                <div class="col">
+                    <h4>
+                        Delirium Tremens <span>golden ale, belgium</span>
+                    </h4>
+                    <h4>$13</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section reservations ------------------------------------------------>
+    <section class="reservations" id="reservations">
+        <div class="wrapper">
+            <h2>MAKE A RESERVATION</h2>
+            <small>POWERED BY OPENTABLE</small>
+            <a href="#" class="btn">Find a Table</a>
+            <span>Call 792032 from 5a – 11p daily, or book online with OpenTable.</span>
+            <span>Reservations required for parties of 6 or more.</span>
+        </div>
+    </section>
+    <!-- section contact ------------------------------------------------------>
+    <section class="contact" id="contact">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+    </section>
+    <!-- footer ---------------------------------------------------------------->
+    <footer class="footer">
+        <span>PACIFIC TAVERN, 74 5TH AVENUE, BROOKLYN, NY 11217212-555-1212TEMPLATE. PLACEHOLDER@GMAIL.COM</span>
+        <small>Powered by <a href="#">Squarespace</a></small>
+    </footer>
+
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
