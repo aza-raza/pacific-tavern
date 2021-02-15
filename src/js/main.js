@@ -1,8 +1,10 @@
 //slider ----------------------------------------------------------
 var mySwiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
     spaceBetween: 30,
-    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    effect: 'fade',  
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -12,6 +14,7 @@ var mySwiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
 
 // Burger-menu ------------------------------------------------------
 let burgerMenu = document.querySelector(".burger-menu");
